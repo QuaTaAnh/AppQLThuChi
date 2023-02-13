@@ -6,15 +6,31 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_chi"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Khoản chi" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_thu"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Khoản thu" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="Thống kê" />
     </group>
+    <item android:title="Giới thiệu">
+        <menu>
+            <item
+                android:id="@+id/nav_gioithieu"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Thoát" />
+        </menu>
+    </item>
 </menu>

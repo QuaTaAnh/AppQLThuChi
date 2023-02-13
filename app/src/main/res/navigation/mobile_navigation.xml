@@ -22,4 +22,28 @@
         android:name="com.example.appqlthuchi.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.example.appqlthuchi.ui.khoanchi.ChiFragment"
+        android:label="fragment_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.example.appqlthuchi.ui.khoanthu.ThuFragment"
+        android:label="fragment_thu"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="com.example.appqlthuchi.ui.gioithieu.GioiThieuFragment"
+        android:label="fragment_gioi_thieu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.appqlthuchi.ui.thongke.ThongKeFragment"
+        android:label="fragment_thong_ke"
+        tools:layout="@layout/fragment_thong_ke" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.appqlthuchi.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
 </navigation>
