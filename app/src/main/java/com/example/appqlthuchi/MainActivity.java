@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.appqlthuchi.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
+    //Luc đã từng ngồi ở đây
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
 
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        //day la luc ne
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
